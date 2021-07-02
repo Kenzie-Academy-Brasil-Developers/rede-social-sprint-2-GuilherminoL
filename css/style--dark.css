@@ -16,15 +16,13 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /* VARIÁVEIS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-:root{
-  
-}
+
 
 /*BODY*/
 body{
     background-color: #262626;
 	color:white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Helvetica', 'Roboto', sans-serif;
 	margin: 0;
 	width: 100vw;
 }
@@ -45,14 +43,10 @@ header{
 }
 
 /*RODAPÉ*/
-footer{
 
-}
 
 /*PÁGINA INICIAL*/
-main{
-	
-}
+
 .profile-content{
 	display: flex;
 }
@@ -187,13 +181,7 @@ li a{
 	width: 32vw;
 	border: 1px solid gray
 }
-main .profile-content{
 
-}
-
-main .highlighted-stories{
-
-}
 /* FOOTER */
 .footer-nav{
 	display: flex;
