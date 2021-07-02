@@ -9,7 +9,8 @@
 	<title>Instagram</title>
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="css/style.css" />
+	<link  id = "s1" rel="stylesheet" href="css/style.css"/>
+	<link id = "s2" rel="stylesheet" href="css/style--dark.css" disabled=true />
 
 	<!-- FAVICON -->
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
@@ -18,6 +19,11 @@
 <body>
 	<!-- CABEÇALHO -->
 	<header>
+		<nav>
+			Style:
+			<a href="javascript:s1.disabled=false; s2.disabled=true;">Normal</a>
+			<a href="javascript:s2.disabled=false; s1.disabled=true;">Dark</a>
+		</nav>
 		<a href="https://www.instagram.com/" class="instagram-logo">
 			<figure>
 				<img src="img/logo.png" alt="Instagram logo">

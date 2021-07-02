@@ -22,12 +22,23 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 body{
-	color:#262626;
+    background-color: #262626;
+	color:white;
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	width: 100vw;
 }
+header img{
+    filter:invert(1)
+}
+header a {
+    color:white;
+    text-decoration: none;
+}
 
+header a:hover {
+    text-decoration:underline;
+}
 /*TOPO*/
 header{
 	border-bottom: 1px solid lightgray;
@@ -95,6 +106,9 @@ main{
 	justify-content: space-between;
 	align-items: center;
 }
+li a{
+    color: white;
+}
 .profile-data p{
 	width: fit-content;
 	margin: 0 ;
@@ -121,6 +135,10 @@ main{
 	list-style: none;
 	
 }
+.add-new-highlight img{
+    filter:invert(1);
+    border: 1px solid #2c2c2c;
+}
 /* PERFIL */
 .profile-posts nav{
 	font-weight: bold;
@@ -131,15 +149,15 @@ main{
 	padding: 5px 0;
 }
 
-.profile-posts a:hover{
-	text-decoration: underline;
-}
 .profile-posts a{
 	padding:  7px;
-	color: #262626;
+	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-variant: small-caps;
+}
+.profile-posts a:hover{
+	text-decoration: underline;
 }
 .profile-posts ul{
 	margin: 0;
@@ -184,7 +202,7 @@ main .highlighted-stories{
 	margin:0 20px
 }
 .footer-nav a{
-	color : #262626;
+	color:white;
 	text-decoration:none;
 	margin:  0 5px;
 	font-size: 12px
